@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="icon" type="image/x-icon" href="images/petIcon.ico">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Patas Unidas</title>
+  </head>
+<body>
+    
+    <section class="header">
+
+        <nav>
+  
+          <a href="index.html" class="nav-title">PATAS UNIDAS</a>
+  
+          <div class="nav-links" id="navLinks">
+  
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+  
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="adocao.html">ADOTAR</a></li>
+              <li><a href="contato.html">CONTATO</a></li>
+              <li><a href="aboutus.html">SOBRE NÓS</a></li>
+            </ul>
+  
+          </div>
+  
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+  
+        </nav>
+  
+      </section>
+
+      <section class="doarSection">
+        <span class="doarTitle">
+            <h1>DOAÇÕES</h1>
+        </span>
+
+        <div class="doarDiv">
+
+            <span>
+                <picture>
+                    <img src="images/doar1.png">
+                </picture>
+                
+                <p>
+                    A Maior Campanha Solidária do RS
+                </p>
+
+                <a href="https://www.vakinha.com.br/4715570"><strong>Clique para Acessar</strong></a>
+            </span>
+            <span>
+                <picture>
+                    <img src="images/doar2.png">
+                </picture>
+
+                <p>
+                    Animais Rio Grande do Sul
+                </p>
+
+                <a href="https://www.vakinha.com.br/4829382"><strong>Clique para Acessar</strong></a>
+            </span>
+
+            <span>
+                <picture>
+                    <img src="images/doar3.png">
+                </picture>
+
+                <p>
+                    CAMPANHA SOLIDÁRIA ANIMAIS DO RIO GRANDE DO SUL
+                </p>
+
+                <a href="https://www.vakinha.com.br/4811082"><strong>Clique para Acessar</strong></a>
+            </span>
+
+            <span>
+                <picture>
+                    <img src="images/doar4.png">
+                </picture>
+
+                <p>
+                    Ajude o RS - Oficial
+                </p>
+
+                <a href="https://www.vakinha.com.br/4715570"><strong>Clique para Acessar</strong></a>
+            </span>
+        </div>
+
+      </section>
+
+      <!--- Footer Section --->
+
+    <footer>
+        <div class="icons">
+          <span class="spanIcon">
+            <i class="fa fa-facebook"></i>
+          </span>
+          <span class="spanIcon">
+            <i class="fa fa-twitter"></i>
+          </span>
+          <span class="spanIcon">
+            <i class="fa fa-instagram"></i>
+          </span>
+        </div>
+  
+        <div class="footer-links" id="navLinks">
+          <ul class="footer-link-ul">
+            <div class="linksLeft">
+              <li><a href="adocao.html">ADOTAR</a></li>
+              <li><a href="contato.html">CONTATO</a></li>
+            </div>
+            <div class="linksRight">
+              <li><a href="aboutus.html">SOBRE NÓS</a></li>
+              <li><a href="index.html">HOME</a></li>
+            </div>
+          </ul>
+        </div>
+      </footer>
+  
+      <script>
+  
+        var navLinks = document.getElementById("navLinks");
+  
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+  
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+  
+    </script>
+
+</body>
+</html>

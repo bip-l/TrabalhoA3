@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="icon" type="image/x-icon" href="images/petIcon.ico">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Patas Unidas</title>
+  </head>
+<body>
+
+    <section class="header">
+
+        <nav>
+  
+          <a href="index.html" class="nav-title">PATAS UNIDAS</a>
+  
+          <div class="nav-links" id="navLinks">
+  
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+  
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="adocao.html">ADOTAR</a></li>
+              <li><a href="doar.html">DOAR</a></li>
+              <li><a href="aboutus.html">SOBRE NÓS</a></li>
+            </ul>
+  
+          </div>
+  
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+  
+        </nav>
+  
+      </section>
+
+    <section class="contato">
+
+        <span class="contatoTitle">
+            <h1>CONTATOS</h1>
+        </span>
+
+        <div class="contatoDiv">
+            <span class="contatoSpan">
+                <p>
+                    Email: patasunidas@gmail.com
+                </p>
+                
+                <p>
+                    Telefone: +55(21)99999-9999
+                </p>
+
+                <p>
+                    Facebook: @patasunidasoficial
+                </p>
+
+                <p>
+                    Instagram: @patasunidas
+                </p>
+
+                <p>
+                    Twitter: @patasunidas
+                </p>
+            </span>
+        </div>
+
+        <div class="contatoDiv2">
+            
+        </div>
+    </section>
+
+    <!--- Footer Section --->
+
+    <footer>
+        <div class="icons">
+          <span class="spanIcon">
+            <i class="fa fa-facebook"></i>
+          </span>
+          <span class="spanIcon">
+            <i class="fa fa-twitter"></i>
+          </span>
+          <span class="spanIcon">
+            <i class="fa fa-instagram"></i>
+          </span>
+        </div>
+  
+        <div class="footer-links" id="navLinks">
+          <ul class="footer-link-ul">
+            <div class="linksLeft">
+              <li><a href="adocao.html">ADOTAR</a></li>
+              <li><a href="doar.html">DOAR</a></li>
+            </div>
+            <div class="linksRight">
+              <li><a href="aboutus.html">SOBRE NÓS</a></li>
+              <li><a href="index.html">HOME</a></li>
+            </div>
+          </ul>
+        </div>
+      </footer>
+  
+      <script>
+  
+        var navLinks = document.getElementById("navLinks");
+  
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+  
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+  
+    </script>
+
+</body>
+</html>
